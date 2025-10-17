@@ -1,0 +1,17 @@
+export const surpriseMePrompts: string[] = [
+    "A majestic lion wearing a crown made of stars, on a cosmic throne.",
+    "A futuristic city with flying cars and holographic advertisements, in a synthwave style.",
+    "An enchanted forest where the trees glow with a soft, ethereal light.",
+    "A robot playing a grand piano in a dusty, abandoned concert hall.",
+    "A surreal landscape where clouds are made of cotton candy and rivers flow with chocolate.",
+    "A portrait of an astronaut looking at the Earth from the moon, with a single tear rolling down their cheek.",
+    "A steampunk-inspired submarine exploring a deep-sea trench filled with bioluminescent creatures.",
+    "A floating island with a single, ancient tree at its center, its roots dangling into the clouds.",
+    "A brave knight facing a dragon made of crystal and light.",
+    "A quiet library where books fly from shelf to shelf like birds.",
+    "A cyberpunk ninja meditating on a rainy rooftop overlooking a neon-lit city.",
+    "An oil painting of a cup of coffee that contains a swirling galaxy.",
+    "A photorealistic image of a cat wearing tiny reading glasses and studying a book.",
+    "A beautiful geisha warrior with a katana, cherry blossoms falling around her.",
+    "A fantasy world map, in the style of old parchment, showing mountains, forests, and mythical beasts.",
+];

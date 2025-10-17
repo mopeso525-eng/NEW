@@ -13,7 +13,7 @@ export const MoonIcon: React.FC = () => (
 );
 
 export const UploadIcon: React.FC = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mb-2 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
     </svg>
 );
@@ -55,8 +55,26 @@ export const DownloadIcon: React.FC = () => (
 );
 
 export const ReuseIcon: React.FC = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M_19.5_12_c0-1.232-.046-2.453-.138-3.662_a_4.5_4.5_0_00-4.22-4.22_A_48.34_48.34_0_0012_3.75_48.34_48.34_0_007.86_4.118_a_4.5_4.5_0_00-4.22_4.22_A_48.847_48.847_0_003.5_12_c0_1.232.046_2.453.138_3.662_a_4.5_4.5_0_004.22_4.22_A_48.347_48.347_0_0012_20.25_a_48.344_48.344_0_004.14-.368_4.5_4.5_0_004.22-4.22_A_48.847_48.847_0_0020.5_12z" transform="rotate(-90 12 12) translate(0 2.5)" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75_a_5.25_5.25_0_015.25_5.25_H6.75_A_5.25_5.25_0_0112_6.75z" />
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.5 4.5 0 00-4.22-4.22A48.347 48.347 0 0012 3.75a48.347 48.347 0 00-4.14.368A4.5 4.5 0 003.64 8.34a48.847 48.847 0 00-.138 3.662c0 1.232.046 2.453.138 3.662a4.5 4.5 0 004.22 4.22A48.347 48.347 0 0012 20.25a48.347 48.347 0 004.14-.368A4.5 4.5 0 0019.638 15.662a48.847 48.847 0 00.138-3.662z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75a5.25 5.25 0 015.25 5.25H6.75A5.25 5.25 0 0112 6.75z" />
+    </svg>
+);
+
+export const WandIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 21.75l-.648-1.188a2.25 2.25 0 01-1.423-1.423L13.5 18.75l1.188-.648a2.25 2.25 0 011.423-1.423L17.25 15l.648 1.188a2.25 2.25 0 011.423 1.423L20.25 18.75l-1.188.648a2.25 2.25 0 01-1.423 1.423z" />
+    </svg>
+);
+
+export const TrashIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+    </svg>
+);
+
+export const KeyIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.623 5.913l-4.93 4.93a2 2 0 01-2.828-2.828l4.93-4.93A6 6 0 0117 9h-2m-8 6a2 2 0 11-4 0 2 2 0 014 0z" />
     </svg>
 );

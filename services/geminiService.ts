@@ -1,5 +1,9 @@
 import { GoogleGenAI, Modality, Part } from "@google/genai";
 
+// Fix: Initialize the Google Gemini AI client with the API key from environment variables per coding guidelines.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+
+
 const fileToGenerativePart = async (file: File): Promise<Part> => {
     const base64EncodedDataPromise = new Promise<string>((resolve) => {
         const reader = new FileReader();
@@ -22,11 +26,6 @@ const fileToGenerativePart = async (file: File): Promise<Part> => {
 };
 
 export const generateOrEditImage = async (prompt: string, imageFile?: File): Promise<string> => {
-    if (!process.env.API_KEY) {
-        throw new Error("API key not found. Please set the API_KEY environment variable.");
-    }
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-    
     const parts: Part[] = [];
     if (imageFile) {
         const imagePart = await fileToGenerativePart(imageFile);
@@ -64,7 +63,8 @@ export const generateOrEditImage = async (prompt: string, imageFile?: File): Pro
 
     } catch (error) {
         console.error("Error calling Gemini API:", error);
-        // Propagate the specific error message to be displayed in the UI.
+        
+        // Fix: Remove specific error handling for hardcoded API key to align with new initialization method.
         if (error instanceof Error) {
              throw error;
         }
