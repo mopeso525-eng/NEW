@@ -1,0 +1,5 @@
+{
+  "name": "PESO AI",
+  "description": "An AI-powered image generation and editing tool using Google's Gemini API, featuring a stunning UI with dark and light modes.",
+  "requestFramePermissions": []
+}
